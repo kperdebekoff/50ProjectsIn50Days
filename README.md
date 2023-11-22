@@ -1,2 +1,5 @@
-# 50ProjectsIn50Days
-50 mini web projects using HTML, CSS &amp; JS
+# 50 Projects in 50 Days - HTML/CSS and JavaScript
+
+| #   | Project              | Live Demo     |
+| --- | -------------------- | ------------- |
+| 01  | [Expanding Cards](#) | [See Demo](#) |
