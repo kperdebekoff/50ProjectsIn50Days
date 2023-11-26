@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  background-color: #333;
+  color: #222;
+  overflow-x: hidden;
+
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 5rem;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.container.show-nav .menu-background__circle {
+  transform: rotate(-70deg);
+}
+
+.container.show-nav + .page-nav .page-nav__list .page-nav__item {
+  transform: translateX(0);
+  transition: 0.3s;
+}
+
+.menu-background {
+  position: fixed;
+  top: -10rem;
+  left: -10rem;
+}
+
+.menu-background__circle {
+  position: relative;
+  background-color: rgba(255, 122, 122, 0.9);
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  transition: transform 0.5s linear;
+}
+
+.menu-background__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 10rem;
+  background: transparent;
+  font-size: 2.6rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-background__btn--open {
+  left: 60%;
+}
+
+.menu-background__btn--close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.content__image {
+  max-width: 100%;
+}
+
+.content__author {
+  color: #555;
+  font-style: italic;
+}
+
+.content__text {
+  margin-top: 2rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.tertiary-header {
+  margin: 2rem 0;
+}
+
+.page-nav {
+  position: fixed;
+  bottom: 4rem;
+  left: 0;
+  z-index: 100;
+}
+
+.page-nav__list {
+  list-style: none;
+  padding-left: 3rem;
+}
+
+.page-nav__item {
+  text-transform: uppercase;
+  color: #ff8f88;
+  margin: 4rem 0;
+  transform: translateX(-150%);
+  transition: transform 0.4s ease-in;
+}
+
+.page-nav__item .fas {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.page-nav__item--1 {
+  margin-left: 15px;
+  transform: translateX(-175%);
+}
+
+.page-nav__item--2 {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
