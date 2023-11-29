@@ -8,3 +8,4 @@
 | 04  | [Hidden Search Widget](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/04-hidden-search-widget) | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/04-hidden-search-widget) |
 | 05  | [Blurry Loading](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/05-blurry-loading)             | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/05-blurry-loading)       |
 | 06  | [Scroll Animation](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/06-scroll-animation)         | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/06-scroll-animation)     |
+| 07  | [Split Landing Page](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/07-split-landing-page)     | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/07-split-landing-page)   |
