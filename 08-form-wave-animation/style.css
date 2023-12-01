@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: steelblue;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+}
+
+.main-header {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.form-control {
+  position: relative;
+  margin: 2rem 0 4rem;
+  width: 30rem;
+}
+
+.form-control__input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.2rem #fff solid;
+  display: block;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.form-control__input:focus,
+.btn:focus {
+  outline: 0.2rem solid steelblue;
+  border-radius: 0.2rem;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: lightblue;
+  padding: 1.5rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.text {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+.text__link {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.form-control__label {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+}
+
+.form-control__label span {
+  display: inline-block;
+  font-size: 1.8rem;
+  min-width: 0.5rem;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control__input:focus + label span {
+  color: lightblue;
+  transform: translateY(-4rem);
+}
