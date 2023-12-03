@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #686de0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 2rem;
+
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  width: 80rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.heading-tertiary {
+  margin: 0;
+  opacity: 0.5;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.joke {
+  max-width: 60rem;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+  margin: 5rem auto;
+}
+
+.btn {
+  background-color: #9f68e0;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  padding: 1.4rem 4rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: opacity 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: solid #686de0;
+}
