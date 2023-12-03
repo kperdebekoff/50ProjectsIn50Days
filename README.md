@@ -11,3 +11,4 @@
 | 07  | [Split Landing Page](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/07-split-landing-page)     | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/07-split-landing-page)   |
 | 08  | [Form Wave Animation](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/08-form-wave-animation)   | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/08-form-wave-animation)  |
 | 09  | [Sound Board](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/09-sound-board)                   | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/09-sound-board)          |
+| 10  | [Dad Jokes](https://github.com/kperdebekoff/50ProjectsIn50Days/tree/main/10-dad-jokes)                       | [See Demo](https://kperdebekoff.github.io/50ProjectsIn50Days/10-dad-jokes)            |
